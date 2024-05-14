@@ -20,8 +20,8 @@ class Movie {
     }
 
     // Metodi
-    public function getMoveInfo() {
-        return $this->title . ' - ' . $this->director . ' - ' . $this->year . ' - ' . $this->country . ' - ' . implode(', ', $this->genre) . ' - ' . $this->duration . ' - ' . $this->rating;
+    public function getDuration() {
+        return $this->duration . ' ' . 'min';
     }
 }
 ?>
