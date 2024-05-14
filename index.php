@@ -14,29 +14,7 @@ require_once __DIR__ . '/db.php';
     <!-- /Bootstrap CSS -->
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-success">
-            <div class="container w-75">
-                <a class="navbar-brand text-light" href="#">Movie</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-                    <span class="navbar-toggler-icon" ></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <?php include __DIR__ . '/partials/templates/header.php'; ?>
     <main>
         <div class="container w-75 py-4">
             <div class="row row-cols-md-2 row-cols-lg-3 g-3 justify-content-center">
